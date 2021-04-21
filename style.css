@@ -1,0 +1,36 @@
+*{
+    
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding: 200px;
+    text-align:center ;
+    color:white;
+    
+}
+
+body{
+    background: chocolate;
+}
+
+button{
+    width:7rem;
+    height: 5rem;
+    background: crimson;
+    border: 2px white solid;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color:white;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+button:hover{
+    transition: 0.5s ease-in-out;
+    background-color: rgb(236, 113, 113);
+}
+
+#seconds,#tens{
+    font-size:2em;
+}
